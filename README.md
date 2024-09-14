@@ -1,11 +1,12 @@
-# Hackathon Pedbot 2024
+# Hackathon Pedbot 2024 - 2º Lugar 🥈 (Unimar)
 
-### 🛠️ Projeto: Primeiros Socorros para Saúde Mental
+### 🛠️ Projeto: "Primeiros Socorros" para Saúde Mental
 
-Projeto com IA voltada para Saúde Mental, desenvolvido durante o Hackathon Pedbot 2024. Este projeto tem como objetivo fornecer suporte rápido e acessível para quem busca cuidar da saúde mental em momentos de necessidade.
+Este projeto foi desenvolvido durante o Hackathon 2024, onde conquistou o 2º lugar 🥈. Nosso objetivo foi criar uma plataforma de apoio à saúde mental acessível e interativa, que oferece conteúdos práticos e rápidos para quem precisa de suporte imediato.
 
 Nosso foco é oferecer uma plataforma amigável e interativa com conteúdos curtos, técnicas de relaxamento, informações úteis e um chatbot para interações rápidas e intuitivas.
-🎯 Objetivo do Projeto
+
+### 🎯 Objetivo do Projeto
 
 A saúde mental é uma prioridade e, muitas vezes, as pessoas precisam de suporte imediato em momentos de ansiedade, estresse ou outras situações desafiadoras. Este projeto funciona como uma "caixa de primeiros socorros" digital para a mente, ajudando os usuários com:
 
