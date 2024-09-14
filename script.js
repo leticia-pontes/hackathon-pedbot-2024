@@ -1,16 +1,29 @@
+import OpenAI from "openai";
+
 function ReceberChat(event) {
     event.preventDefault(); // Prevent form submission
-
+  
     // Access form elements by their IDs
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
+    const key = ""
+    const textoUser = document.getElementById("chat").value;
+    const openai = new OpenAI(key);
+  
+    const completion = async() => {
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: "You are a helpful assistant." },
+        {
+          role: "user",
+          content: textoUser,
+        },
+      ],
+    });}
     // Do something with the form data
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
-
+  
+    console.log(completion.choices[0].message);
+  
     // Reset the form
     event.target.reset();
-}
+  }
+  

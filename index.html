@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module" src="script.js"></script>
 </head>
 <body>
-    <form onsubmit="return ReceberChat()">
+    <form onsubmit="ReceberChat(event);">
         <label for="chat">Insira seu texto</label>
         <input id="chat" name="chat" type="text">
         <button type="submit">Enviar</button>
     </form>
-    <script src="script.js"></script>
 </body>
 </html>
